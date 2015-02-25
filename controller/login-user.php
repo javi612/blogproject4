@@ -9,7 +9,8 @@
     if($query->num_rows == 1) {
         $row = $query->fetch_array();
         
-        if($row["password"] == crypt($password, $row["salt"])) {
+        if($row["password"] === crypt($password, $row["salt"])) {
+            $_SESSION["authenticated"] = true;
             echo "<p>Login Successful!</p>";
         }
         else{
