@@ -20,3 +20,7 @@
     else {
         echo "<p>Invalid username and password</p>";
     }
+   
+    /*
+     * this is for the user
+     */

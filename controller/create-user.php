@@ -22,3 +22,7 @@
     else {
         echo "<p>" . $_SESSION["connection"]->error . "</p>";
     }
+    
+    /*
+     * this is to create a user
+     */
