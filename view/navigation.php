@@ -9,7 +9,7 @@ require_once(__DIR__ . "/../model/config.php");
 
         <a class="blogPost" href="<?php echo $path . "/post.php"; ?>">Post Blog Form</a>
         <a class="blogPost" href="<?php echo $path . "/login.php"; ?>">Sign in</a>
-       
+
     </u1>
 </nav>
 
